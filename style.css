@@ -12,7 +12,6 @@ body {
 p {
   text-align: center;
 }
-<style>
 /* Make the image a little bigger on hover */
 img {
   transition: transform 0.3s; /* smooth animation */
@@ -33,5 +32,8 @@ img:hover {
   transform: scale(1.1); /* Makes it bigger on hover */
 }
 #the2nd {
+  text-align: center;
+}
+#channle {
   text-align: center;
 }
