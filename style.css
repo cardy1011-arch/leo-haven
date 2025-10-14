@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  background-image: url(cate.png);
+  font-family: Arial, sans-serif;
+  background-color: #1f1b1d;
+  color: hsl(291, 100%, 99%);
+  font-size:200%
+}
+#introvid {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+<style>
+/* Make the image a little bigger on hover */
+img {
+  transition: transform 0.3s; /* smooth animation */
+}
+
+img:hover {
+  transform: scale(1.1); /* 10% bigger */
+}
+img {
+  width: 100px;         /* Set a width */
+  height: 100px;        /* Set a height (make it equal to width) */
+  border-radius: 50%;   /* Makes it a circle */
+  object-fit: cover;    /* Ensures the image fills the circle without stretching */
+  transition: transform 0.3s; /* keeps hover effect smooth */
+}
+
+img:hover {
+  transform: scale(1.1); /* Makes it bigger on hover */
+}
+#the2nd {
+  text-align: center;
+}
