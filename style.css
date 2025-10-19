@@ -21,9 +21,9 @@ img:hover {
   transform: scale(1.1); /* 10% bigger */
 }
 img {
-  width: 100px;         /* Set a width */
-  height: 100px;        /* Set a height (make it equal to width) */
-  border-radius: 50%;   /* Makes it a circle */
+  width: 200px;         /* Set a width */
+  height: 200px;        /* Set a height (make it equal to width) */
+  border-radius: 22%;   /* Makes it a circle */
   object-fit: cover;    /* Ensures the image fills the circle without stretching */
   transition: transform 0.3s; /* keeps hover effect smooth */
 }
@@ -35,5 +35,8 @@ img:hover {
   text-align: center;
 }
 #channle {
+  text-align: center;
+}
+#tunes {
   text-align: center;
 }
